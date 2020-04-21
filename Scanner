@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String [] args) {
+        double GPA = 3.45;
+        String firstName = "Kayla";
+        String lastName = "Hammon";
+        System.out.println(firstName + " " +  lastName+" has a GPA of " + GPA);
+        System.out.println("What do you want to update it to?");
+
+        Scanner input= new Scanner(System.in);
+        GPA= input.nextDouble ();
+
+        System.out.println(firstName+ " " + lastName+ " now has a GPA of "+ GPA);
+
+
+    }
+}
