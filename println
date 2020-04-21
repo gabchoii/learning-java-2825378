@@ -1,0 +1,27 @@
+# learning-java-2825378
+Learning Java (REVISION Q1 2020)
+public class Main {
+
+    public static void main(String[] args) {
+        int Age =15;
+        double GPA= 3.45;
+        boolean perfectAttendance= true;
+
+        String firstName= "Kayla";
+        String lastName= "Hammon";
+        char firstInitial=firstName.charAt(0);
+        char lastInitial= lastName.charAt(0);
+
+
+        System.out.println (Age);
+        System.out.println (GPA);
+        System.out.println(firstInitial);
+        System.out.println(lastInitial);
+        System.out.println (perfectAttendance);
+        System.out.println(firstName);
+        System.out.println(lastName);
+
+
+    }
+
+}
